@@ -264,8 +264,7 @@ const CandyMachine = ({ walletAddress }) => {
 
   useEffect(() => {
     getCandyMachineState();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  }, []) // eslint-disable-next-line react-hooks/exhaustive-deps
 
   const getProvider = () => {
     const rpcHost = process.env.REACT_APP_SOLANA_RPC_HOST;
