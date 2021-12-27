@@ -38,7 +38,7 @@ useEffect(() => {
         clearInterval(interval);
       }
     };
-  }, []) // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [dropDate]) // eslint-disable-next-line react-hooks/exhaustive-deps
 
   return (
     <div className="timer-container">
